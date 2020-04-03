@@ -1,0 +1,46 @@
+<html lang="ro">
+  <head>
+    <meta charset="utf-8"/>
+  </head>
+  <body>
+    <form method="POST" enctype="multipart/form-data" action="profil_nou.php">
+      <label for="profil">Nume profil:</label>
+      <input type="text" id="profil" name="profil">
+      <br>
+      <label for="nume">Nume:</label>
+      <input type="text" id="nume" name="nume">
+      <label for="prenume">Prenume:</label>
+      <input type="text" id="prenume" name="prenume">
+      <br>
+      <fieldset>
+        <legend>Data Nașterii:</legend>
+        <label for="ziua">ziua:</label>
+        <input type="text" id="ziua" size="3" name="ziua">
+        <label for="luna">luna:</label>
+        <input type="text" id="luna" size="3" name="luna">
+        <label for="anul">anul:</label>
+        <input type="text" id="anul" size="5" name="anul">
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend>Adresa:</legend>
+        <br>
+        <input type="text" id="adresa1" size="50" name="adresa1">
+        <br>
+        <input type="text" id="adresa2" size="50" name="adresa2">
+      </fieldset>
+      <br>
+      <fieldset>
+          <legend>Semnatura</legend>
+          <label for="signature">Fișier:</label>
+          <input type="file" id="signature" name="signature">
+          <label for="dy">Deplasament verticală:</label>
+          <input type="text" size="4" id="dy" name="dy" value="370">
+          <label for="dx">Deplasament orizontală:</label>
+          <input type="text" size="3" id="dx" name="dx" value="125">
+      </fieldset>
+      <br>
+      <input type="submit" value="Înregistrează">
+    </form>
+  </body>
+</html>
